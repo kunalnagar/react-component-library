@@ -3,4 +3,7 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
   },
+  rules: {
+    'no-magic-numbers': 'off',
+  },
 }
