@@ -7,6 +7,9 @@ export interface IColors {
   white: string
   blue: { [TKey in TWeight]: string }
   gray: { [TKey in TWeight]: string }
+  red: { [TKey in TWeight]: string }
+  orange: { [TKey in TWeight]: string }
+  green: { [TKey in TWeight]: string }
 }
 
 export const colors: IColors = {
@@ -33,6 +36,39 @@ export const colors: IColors = {
     700: '#4a5568',
     800: '#2d3748',
     900: '#1a202c',
+  },
+  green: {
+    100: '#f0fff4',
+    200: '#c6f6d5',
+    300: '#9ae6b4',
+    400: '#68d391',
+    500: '#48bb78',
+    600: '#38a169',
+    700: '#2f855a',
+    800: '#276749',
+    900: '#22543d',
+  },
+  orange: {
+    100: '#fffaf0',
+    200: '#feebc8',
+    300: '#fbd38d',
+    400: '#f6ad55',
+    500: '#ed8936',
+    600: '#dd6b20',
+    700: '#c05621',
+    800: '#9c4221',
+    900: '#7b341e',
+  },
+  red: {
+    100: '#fff5f5',
+    200: '#fed7d7',
+    300: '#feb2b2',
+    400: '#fc8181',
+    500: '#f56565',
+    600: '#e53e3e',
+    700: '#c53030',
+    800: '#9b2c2c',
+    900: '#742a2a',
   },
   transparent: 'transparent',
   white: '#fff',

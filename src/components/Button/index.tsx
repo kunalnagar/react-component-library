@@ -1,25 +1,47 @@
 import React from 'react'
-import styled from 'styled-components/macro'
+import styled, { css } from 'styled-components/macro'
 
 interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {}
 
-// const ButtonBase = ({ children, ...rest }: IButtonProps) => {
-//   return (
-//     <>
-//       <button {...rest}>{children}</button>
-//     </>
-//   )
-// }
-
 export const Button = styled.button<IButtonProps>`
-  border: 0;
   cursor: pointer;
-  color: white;
   padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
   font-size: 1.5rem;
-  background-color: ${(props) => props.theme.colors.blue[800]};
+  background: none;
+  background-color: ${(props) => props.theme.colors.default};
+  appearance: none;
 
   &:hover {
-    background-color: ${(props) => props.theme.colors.blue[900]};
+    background-color: ${(props) => props.theme.colors.secondary[200]};
   }
+`
+
+const setButtonStyle = (variant: any) => css`
+  border-color: ${variant[700]};
+  color: ${(props) => props.theme.colors.default};
+  background-color: ${variant[600]};
+
+  &:hover {
+    background-color: ${variant[700]};
+  }
+`
+
+export const ButtonPrimary = styled(Button)`
+  ${(props) => setButtonStyle(props.theme.colors.primary)}
+`
+
+export const ButtonSecondary = styled(Button)`
+  ${(props) => setButtonStyle(props.theme.colors.secondary)}
+`
+
+export const ButtonSuccess = styled(Button)`
+  ${(props) => setButtonStyle(props.theme.colors.success)}
+`
+
+export const ButtonDanger = styled(Button)`
+  ${(props) => setButtonStyle(props.theme.colors.danger)}
+`
+export const ButtonWarning = styled(Button)`
+  ${(props) => setButtonStyle(props.theme.colors.warning)}
 `

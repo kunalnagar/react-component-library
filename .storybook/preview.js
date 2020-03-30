@@ -1,7 +1,7 @@
 import React from 'react'
 import { addParameters, addDecorator } from '@storybook/react'
 import { ThemeProvider } from 'styled-components'
-import { theme } from '../src/theme'
+import { themeLight } from '../src/theme'
 
 const CUSTOM_VIEWPORTS = {
   s: {
@@ -53,4 +53,6 @@ addParameters({
   },
 })
 
-addDecorator(story => <ThemeProvider theme={theme}>{story()}</ThemeProvider>)
+addDecorator((story) => (
+  <ThemeProvider theme={themeLight}>{story()}</ThemeProvider>
+))
