@@ -1,7 +1,6 @@
 import styled, { css } from 'styled-components/macro'
-import { IButtonProps } from '../../types/Button'
 import { EVariant } from '../../theme/enums'
-import { colors } from '../../theme/colors'
+import { IButtonProps } from '../../types/Button'
 
 export const Button = styled.button<IButtonProps>`
   cursor: pointer;
@@ -17,7 +16,9 @@ export const Button = styled.button<IButtonProps>`
 const setButtonVariant = (variant: EVariant) => css<IButtonProps>`
   border-color: ${(props) => props.theme.colors[variant][700]};
   color: ${(props) =>
-    variant === EVariant.default ? colors.black : props.theme.colors.default};
+    variant === EVariant.default
+      ? props.theme.colors.black
+      : props.theme.colors.default};
   background-color: ${(props) => props.theme.colors[variant][600]};
 
   &:hover {

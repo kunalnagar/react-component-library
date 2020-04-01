@@ -6,6 +6,7 @@ declare module 'styled-components' {
   // eslint-disable-next-line @typescript-eslint/interface-name-prefix
   export interface DefaultTheme {
     colors: {
+      black: string
       danger: { [TKey in TWeight]: string }
       default: string
       primary: { [TKey in TWeight]: string }

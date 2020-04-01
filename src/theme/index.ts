@@ -11,6 +11,7 @@ export const theme = {
 
 export const themeLight: DefaultTheme = {
   colors: {
+    black: colors.black,
     danger: colors.red,
     default: colors.white,
     primary: colors.blue,
