@@ -11,3 +11,12 @@ export enum ESize {
   xl = 4,
   xxl = 5,
 }
+
+export enum EVariant {
+  default = 'default',
+  primary = 'primary',
+  secondary = 'secondary',
+  success = 'success',
+  warning = 'warning',
+  danger = 'danger',
+}

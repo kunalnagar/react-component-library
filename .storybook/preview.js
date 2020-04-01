@@ -45,7 +45,7 @@ addParameters({
   options: {
     theme: {
       base: 'light',
-      brandTitle: 'HomeX',
+      brandTitle: 'kunalnagar/react-component-library',
     },
   },
   viewport: {

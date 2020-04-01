@@ -1,18 +1,14 @@
-import React from 'react'
 import { storiesOf } from '@storybook/react'
-import {
-  Button,
-  ButtonDanger,
-  ButtonPrimary,
-  ButtonSecondary,
-  ButtonSuccess,
-  ButtonWarning,
-} from '../../Button'
+import React from 'react'
+import { EVariant } from '../../../theme/enums'
+import { Button } from '../../Button'
 
 storiesOf('Atoms|Button', module)
-  .add('Default', () => <Button>Default</Button>)
-  .add('Primary', () => <ButtonPrimary>Primary</ButtonPrimary>)
-  .add('Secondary', () => <ButtonSecondary>Secondary</ButtonSecondary>)
-  .add('Success', () => <ButtonSuccess>Success</ButtonSuccess>)
-  .add('Danger', () => <ButtonDanger>Danger</ButtonDanger>)
-  .add('Warning', () => <ButtonWarning>Warning</ButtonWarning>)
+  .add('Default', () => <Button variant={EVariant.default}>Default</Button>)
+  .add('Primary', () => <Button variant={EVariant.primary}>Primary</Button>)
+  .add('Secondary', () => (
+    <Button variant={EVariant.secondary}>Secondary</Button>
+  ))
+  .add('Success', () => <Button variant={EVariant.success}>Success</Button>)
+  .add('Danger', () => <Button variant={EVariant.danger}>Danger</Button>)
+  .add('Warning', () => <Button variant={EVariant.warning}>Warning</Button>)
