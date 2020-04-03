@@ -14,9 +14,10 @@ for (const item in ESize) {
 
 storiesOf('Atoms|Button', module).add('Button', () => (
   <Button
+    label={text('label', 'Sample aria label text')}
     size={select('size', sizes, ESize.md)}
     variant={select('variant', EVariant, EVariant.default)}
   >
-    {text('label', 'Button Label')}
+    Button
   </Button>
 ))

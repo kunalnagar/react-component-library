@@ -81,7 +81,7 @@ const setButtonSize = (size: ESize) => {
   }
 }
 
-export const Button = styled.button<IButtonProps>`
+export const ButtonBase = styled.button<Omit<IButtonProps, 'label'>>`
   ${setBaseStyles}
   ${(props) =>
     setButtonVariant(
