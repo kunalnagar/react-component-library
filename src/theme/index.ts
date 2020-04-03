@@ -18,5 +18,7 @@ export const themeLight: DefaultTheme = {
     secondary: colors.gray,
     success: colors.green,
     warning: colors.orange,
+    white: colors.white,
   },
+  spacing,
 }

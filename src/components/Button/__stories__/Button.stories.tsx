@@ -1,14 +1,22 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { EVariant } from '../../../theme/enums'
+import { ESize, EVariant } from '../../../theme/enums'
 import { Button } from '../../Button'
+import { select, text } from '@storybook/addon-knobs'
 
-storiesOf('Atoms|Button', module)
-  .add('Default', () => <Button variant={EVariant.default}>Default</Button>)
-  .add('Primary', () => <Button variant={EVariant.primary}>Primary</Button>)
-  .add('Secondary', () => (
-    <Button variant={EVariant.secondary}>Secondary</Button>
-  ))
-  .add('Success', () => <Button variant={EVariant.success}>Success</Button>)
-  .add('Danger', () => <Button variant={EVariant.danger}>Danger</Button>)
-  .add('Warning', () => <Button variant={EVariant.warning}>Warning</Button>)
+const sizes: any = {}
+
+for (const item in ESize) {
+  if (!isNaN(parseInt(item))) {
+    sizes[ESize[item]] = parseInt(item)
+  }
+}
+
+storiesOf('Atoms|Button', module).add('Button', () => (
+  <Button
+    size={select('size', sizes, ESize.md)}
+    variant={select('variant', EVariant, EVariant.default)}
+  >
+    {text('label', 'Button Label')}
+  </Button>
+))
