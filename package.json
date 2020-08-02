@@ -3,10 +3,10 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "build": "build-storybook -s docs -o docs",
-    "deploy": "storybook-to-ghpages -o docs",
+    "build": "build-storybook -o release",
     "lint": "eslint --fix src/ --ext .ts,.tsx --max-warnings 0",
-    "start": "start-storybook -p 9009 -s docs"
+    "lint:github": "yaml-validator .github/workflows/build.yml && yaml-validator .github/workflows/release.yml && yaml-validator .github/dependabot.yml",
+    "start": "start-storybook -p 9009 -s release"
   },
   "husky": {
     "hooks": {
@@ -77,6 +77,7 @@
     "react-scripts": "3.4.1",
     "sort-package-json": "^1.40.0",
     "styled-components": "^5.0.1",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "yaml-validator": "^3.0.0"
   }
 }

@@ -1,0 +1,29 @@
+name: Release site
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    container:
+      image: kunalnagar/ruby-node
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install npm dependencies
+        run: npm install
+      - name: Lint code + YML
+        run: |
+          npm run lint
+          npm run lint:github
+      - name: Create Storybook build
+        run: npm run build
+      - name: Install rsync
+        run: apt-get update && apt-get install -y rsync
+      - name: Release
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: release
