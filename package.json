@@ -74,7 +74,7 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.0.10",
     "prettier": "^2.0.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.3",
     "sort-package-json": "^1.40.0",
     "styled-components": "^5.0.1",
     "typescript": "^3.8.3",
