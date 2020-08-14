@@ -5,7 +5,7 @@
   "scripts": {
     "build": "build-storybook -o release",
     "lint": "eslint --fix src/ --ext .ts,.tsx --max-warnings 0",
-    "lint:github": "yaml-validator .github/workflows/build.yml && yaml-validator .github/workflows/release.yml && yaml-validator .github/dependabot.yml",
+    "lint:github": "yaml-validator .github/workflows/build.yml && yaml-validator .github/workflows/release.yml",
     "start": "start-storybook -p 9009 -s release"
   },
   "husky": {
