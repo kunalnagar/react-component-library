@@ -1,5 +1,5 @@
 {
-  "name": "react-component-library",
+  "name": "@kunalnagarco/react-component-library",
   "version": "0.1.2",
   "sideEffects": false,
   "main": "dist/index.js",
