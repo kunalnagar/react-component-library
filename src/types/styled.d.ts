@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-restricted-imports
 import 'styled-components'
-import { TWeight } from '../theme/types'
-import { ISpacing } from '../theme/spacing'
+import { TWeight } from 'theme/types'
+import { ISpacing } from 'theme/spacing'
 
 declare module 'styled-components' {
   // eslint-disable-next-line @typescript-eslint/interface-name-prefix

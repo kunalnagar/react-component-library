@@ -1,6 +1,7 @@
-import styled, { css } from 'styled-components/macro'
-import { ESize, EVariant } from '../../theme/enums'
-import { IButtonProps } from '../../types/Button'
+import styled, { css } from 'styled-components'
+
+import { ESize, EVariant } from 'theme/enums'
+import { IButtonProps } from 'types/Button'
 
 const setBaseStyles = css`
   cursor: pointer;
@@ -85,7 +86,7 @@ export const ButtonBase = styled.button<Omit<IButtonProps, 'label'>>`
   ${setBaseStyles}
   ${(props) =>
     setButtonVariant(
-      typeof props.variant === 'undefined' ? EVariant.default : props.variant
+      typeof props.variant === 'undefined' ? EVariant.default : props.variant,
     )}
   ${(props) =>
     setButtonSize(typeof props.size === 'undefined' ? ESize.md : props.size)}
