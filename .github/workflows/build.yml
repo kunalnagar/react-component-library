@@ -9,9 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    container:
-      image: kunalnagar/ruby-node
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
       - name: Install npm dependencies
@@ -20,5 +18,7 @@ jobs:
         run: |
           npm run lint
           npm run lint:github
-      - name: Create Storybook build
+      - name: Create npm build
         run: npm run build
+      - name: Create Storybook build
+        run: npm run build:storybook
