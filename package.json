@@ -10,6 +10,7 @@
     "build": "rollup -c",
     "postbuild": "find dist -type d -name '__stories__' -exec rm -r {} + && find dist -type f -name '*.stories.*' -delete",
     "build:storybook": "build-storybook -o release",
+    "deploy": "semantic-release --debug",
     "lint": "eslint --fix src/ --ext .ts,.tsx --max-warnings 0",
     "lint:github": "yaml-validator .github/workflows/build.yml && yaml-validator .github/workflows/release.yml",
     "start": "start-storybook -p 9009"
