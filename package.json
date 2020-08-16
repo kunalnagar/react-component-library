@@ -1,6 +1,8 @@
 {
   "name": "@kunalnagarco/react-component-library",
   "version": "0.1.2",
+  "description": "A collection of reusable React Components",
+  "license": "MIT",
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -104,5 +106,8 @@
     "react": ">=16",
     "react-dom": ">=16",
     "styled-components": ">=5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
