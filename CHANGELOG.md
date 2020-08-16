@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/kunalnagar/react-component-library/compare/v1.0.0...v1.0.1) (2020-08-16)
+
+
+### Bug Fixes
+
+* NPM access ([5db16ea](https://github.com/kunalnagar/react-component-library/commit/5db16ea5a29f6f6d038af2d4442d405402c6b041))
+
 ## 1.0.0 (2020-08-16)
 
 
