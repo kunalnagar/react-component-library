@@ -1,28 +1,27 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
     "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "baseUrl": "src",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
     "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "es6",
+    "moduleResolution": "node",
     "noEmit": true,
-    "jsx": "react"
+    "noErrorTruncation": true,
+    "outDir": "./dist",
+    "paths": { "*": ["*"] },
+    "plugins": [{ "transform": "@zerollup/ts-transform-paths" }],
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es5",
+    "rootDir": "src"
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src"],
+  "exclude": ["storybook", "dist"]
 }

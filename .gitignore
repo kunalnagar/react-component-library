@@ -1,4 +1,5 @@
-node_modules/
-/release
+node_modules
+release
+dist
 
 .DS_Store

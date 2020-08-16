@@ -1,7 +1,8 @@
+import { DefaultTheme } from 'styled-components'
+
 import { colors } from './colors'
 import { spacing } from './spacing'
 import { breakpoint } from './breakpoint'
-import { DefaultTheme } from 'styled-components/macro'
 
 export const theme = {
   breakpoint,

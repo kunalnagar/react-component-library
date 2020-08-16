@@ -1,8 +1,10 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { ESize, EVariant } from '../../../theme/enums'
-import { Button } from '../../Button'
 import { select, text } from '@storybook/addon-knobs'
+
+import { ESize, EVariant } from 'theme/enums'
+
+import { Button } from '..'
 
 const sizes: any = {}
 
