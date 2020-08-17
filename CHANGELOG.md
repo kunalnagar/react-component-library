@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/kunalnagar/react-component-library/compare/v1.0.1...v1.1.0) (2020-08-17)
+
+
+### Features
+
+* **component:** Accordion ([#56](https://github.com/kunalnagar/react-component-library/issues/56)) ([4905dcd](https://github.com/kunalnagar/react-component-library/commit/4905dcd6440b73d9df2d269ed72d3bb2bff56d9a))
+
 ### [1.0.1](https://github.com/kunalnagar/react-component-library/compare/v1.0.0...v1.0.1) (2020-08-16)
 
 
