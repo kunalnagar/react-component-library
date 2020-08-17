@@ -21,7 +21,7 @@ export const AccordionItemTitleStyled = styled.button`
 
 export const AccordionItemContentStyled = styled.div(
   ({ isExpanded }: Pick<IAccordionItemProps, 'isExpanded'>) => `
-  margin-left: 2.4rem;
+  margin-left: 1.7rem;
   display: ${isExpanded ? 'block' : 'none'}
 `,
 )

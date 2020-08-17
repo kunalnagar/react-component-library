@@ -3,6 +3,7 @@ import { addParameters, addDecorator } from '@storybook/react'
 import { ThemeProvider } from 'styled-components'
 import { themeLight } from '../src/theme'
 import { withKnobs } from '@storybook/addon-knobs'
+import { withInfo } from '@storybook/addon-info'
 
 const CUSTOM_VIEWPORTS = {
   s: {
@@ -54,6 +55,7 @@ addParameters({
   },
 })
 
+addDecorator(withInfo)
 addDecorator(withKnobs)
 addDecorator((story) => (
   <ThemeProvider theme={themeLight}>{story()}</ThemeProvider>

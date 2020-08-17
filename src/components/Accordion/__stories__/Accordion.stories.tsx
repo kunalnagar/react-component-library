@@ -10,16 +10,24 @@ export default {
 }
 
 export const Basic = () => {
-  const [activeItem, setActiveItem] = useState(0)
+  const [activeItem, setActiveItem] = useState<number | null>()
+
+  const handleClick = (e: any, index: number) => {
+    if (activeItem === index) {
+      setActiveItem(null)
+    } else {
+      setActiveItem(index)
+    }
+  }
 
   return (
-    <Accordion>
+    <Accordion style={{ width: '50%' }}>
       <Accordion.Item
         label="Summary 1"
         iconCollapsed={<PlusIcon />}
         iconExpanded={<MinusIcon />}
         isExpanded={activeItem === 0}
-        onClick={() => setActiveItem(0)}
+        onClick={(e) => handleClick(e, 0)}
       >
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et eos vitae
         debitis sapiente similique deserunt tempora velit voluptatem sequi
@@ -31,7 +39,7 @@ export const Basic = () => {
         iconCollapsed={<PlusIcon />}
         iconExpanded={<MinusIcon />}
         isExpanded={activeItem === 1}
-        onClick={() => setActiveItem(1)}
+        onClick={(e) => handleClick(e, 1)}
       >
         Et eos vitae debitis sapiente similique deserunt tempora velit
         voluptatem sequi eligendi, fugit ex facilis quidem eaque placeat
