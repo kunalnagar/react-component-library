@@ -1,43 +1,36 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import { IAccordionProps, IAccordionItemProps } from 'types'
 
 import {
   AccordionStyled,
   AccordionItemTitleStyled,
-  AccordionItemContent,
+  AccordionItemContentStyled,
 } from './styled'
 
-export const Accordion = ({ children }: IAccordionProps) => {
-  return <AccordionStyled>{children}</AccordionStyled>
-}
-
-export const AccordionItem = ({
+const AccordionItem = ({
   iconExpanded,
   iconCollapsed,
   isExpanded = false,
   label,
   children,
+  ...rest
 }: IAccordionItemProps) => {
-  const [isOpen, setIsOpen] = useState(isExpanded)
-
-  const handleClick = () => {
-    setIsOpen(!isOpen)
-  }
-
   return (
-    <li>
-      <AccordionItemTitleStyled
-        aria-expanded={isOpen ? true : false}
-        onClick={handleClick}
-      >
-        {isOpen ? iconExpanded : iconCollapsed}
+    <li {...rest}>
+      <AccordionItemTitleStyled aria-expanded={isExpanded ? true : false}>
+        {isExpanded ? iconExpanded : iconCollapsed}
         {label}
       </AccordionItemTitleStyled>
-      {isOpen && <AccordionItemContent>{children}</AccordionItemContent>}
+      <AccordionItemContentStyled isExpanded={isExpanded}>
+        {children}
+      </AccordionItemContentStyled>
     </li>
   )
 }
 
+export const Accordion = ({ children }: IAccordionProps) => {
+  return <AccordionStyled>{children}</AccordionStyled>
+}
+
 Accordion.Item = AccordionItem
-Accordion.ItemContent = AccordionItemContent

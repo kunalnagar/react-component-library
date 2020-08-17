@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import { IAccordionItemProps } from 'types'
+
 export const AccordionStyled = styled.ul`
   padding-left: 0;
 `
@@ -17,6 +19,9 @@ export const AccordionItemTitleStyled = styled.button`
   }
 `
 
-export const AccordionItemContent = styled.div`
-  margin-left: 1rem;
-`
+export const AccordionItemContentStyled = styled.div(
+  ({ isExpanded }: Pick<IAccordionItemProps, 'isExpanded'>) => `
+  margin-left: 2.4rem;
+  display: ${isExpanded ? 'block' : 'none'}
+`,
+)
