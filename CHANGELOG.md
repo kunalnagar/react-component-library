@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/kunalnagar/react-component-library/compare/v2.0.0...v3.0.0) (2020-08-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* What am I doing on a Saturday morning?
+
+### Chores
+
+* What am I doing on a Saturday morning? ([b8c4c3c](https://github.com/kunalnagar/react-component-library/commit/b8c4c3cba32cae279ab69b5bfe82f8b7b1e4db95))
+
 ## [2.0.0](https://github.com/kunalnagar/react-component-library/compare/v1.1.1...v2.0.0) (2020-08-22)
 
 
