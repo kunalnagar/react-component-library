@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.1](https://github.com/kunalnagar/react-component-library/compare/v3.0.0...v3.0.1) (2020-08-22)
+
+
+### Chores
+
+* I should really go chill now ([dd873ed](https://github.com/kunalnagar/react-component-library/commit/dd873ed244aa8c95d43f768117cd3f6426489ec7))
+
 ## [3.0.0](https://github.com/kunalnagar/react-component-library/compare/v2.0.0...v3.0.0) (2020-08-22)
 
 
