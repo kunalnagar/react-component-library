@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/kunalnagar/react-component-library/compare/v1.1.1...v2.0.0) (2020-08-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* Does this work?
+
+### Chores
+
+* Add breaking true ([9685882](https://github.com/kunalnagar/react-component-library/commit/96858828870d52f9176a39b9a1e509244be64c01))
+
 ### [1.1.1](https://github.com/kunalnagar/react-component-library/compare/v1.1.0...v1.1.1) (2020-08-22)
 
 
