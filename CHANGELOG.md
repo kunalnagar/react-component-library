@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.2](https://github.com/kunalnagar/react-component-library/compare/v3.0.1...v3.0.2) (2020-08-24)
+
+
+### Chores
+
+* **deps-dev:** bump @storybook/addon-links from 6.0.10 to 6.0.16 ([#57](https://github.com/kunalnagar/react-component-library/issues/57)) ([468ed36](https://github.com/kunalnagar/react-component-library/commit/468ed36255ee4c24b59b49f48379dc8f65a43e8f))
+
 ### [3.0.1](https://github.com/kunalnagar/react-component-library/compare/v3.0.0...v3.0.1) (2020-08-22)
 
 
