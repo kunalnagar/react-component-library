@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.3](https://github.com/kunalnagar/react-component-library/compare/v3.0.2...v3.0.3) (2020-08-27)
+
+
+### Chores
+
+* Remove dependabot + update deps ([d428a88](https://github.com/kunalnagar/react-component-library/commit/d428a88aa9475c9758deedd1f24f5017192d2721))
+
 ### [3.0.2](https://github.com/kunalnagar/react-component-library/compare/v3.0.1...v3.0.2) (2020-08-24)
 
 
