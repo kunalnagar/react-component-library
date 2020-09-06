@@ -14,7 +14,7 @@
     "build:storybook": "build-storybook -o release",
     "deploy": "sh ./scripts/deploy.sh && npm publish",
     "lint": "eslint --fix src/ --ext .ts,.tsx --max-warnings 0",
-    "lint:github": "yaml-validator .github/workflows/build.yml && yaml-validator .github/workflows/release.yml",
+    "lint:github": "yaml-validator .github/workflows/build.yml && yaml-validator .github/workflows/release-storybook.yml",
     "release": "standard-version",
     "start": "start-storybook -p 9009"
   },
