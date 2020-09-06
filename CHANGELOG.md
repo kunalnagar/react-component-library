@@ -1,5 +1,15 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [3.0.4](https://github.com/kunalnagar/react-component-library/compare/v3.0.3...v3.0.4) (2020-09-06)
+
+
+### Chores
+
+* Add deploy script + remove semantic-release ([4f81cf8](https://github.com/kunalnagar/react-component-library/commit/4f81cf856f267f4597aea43600ed22761855647a))
+* Rename release.yml ([88458dd](https://github.com/kunalnagar/react-component-library/commit/88458dd967d4c68654e12f3ca29f9b1ee2ef4f35))
+
 ### [3.0.3](https://github.com/kunalnagar/react-component-library/compare/v3.0.2...v3.0.3) (2020-08-27)
 
 
