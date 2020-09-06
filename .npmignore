@@ -6,7 +6,7 @@ src
 .nvmrc
 .prettierrc
 .vscode
-.releaserc.json
+.versionrc
 .eslintrc.js
 rollup.config.js
 tsconfig.json
