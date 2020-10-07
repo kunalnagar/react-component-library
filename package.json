@@ -1,6 +1,6 @@
 {
   "name": "@kunalnagarco/react-component-library",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "A collection of reusable React Components",
   "license": "MIT",
   "sideEffects": false,

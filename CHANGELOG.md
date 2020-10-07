@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.5](https://github.com/kunalnagar/react-component-library/compare/v3.0.4...v3.0.5) (2020-10-07)
+
+
+### Bug Fixes
+
+* Release storybook YAML name ([472207e](https://github.com/kunalnagar/react-component-library/commit/472207edb573046fbb027bfd3601767000b62b50))
+
+
+### Chores
+
+* Updating deps ([2cf7125](https://github.com/kunalnagar/react-component-library/commit/2cf7125fab3213f4b6288dcfaad567656ccb6aac))
+
 ### [3.0.4](https://github.com/kunalnagar/react-component-library/compare/v3.0.3...v3.0.4) (2020-09-06)
 
 
