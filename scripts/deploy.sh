@@ -2,8 +2,6 @@
 
 # IMPORTANT:
 # Set the GitHub repo url
-# If you are using this script on another repo across HomeX,
-# remember to update this URL
 GITHUB_REPO_URL="https://github.com/kunalnagar/react-component-library"
 
 # Clear the console (UNIX only)
