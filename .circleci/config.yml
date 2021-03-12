@@ -33,22 +33,7 @@ jobs:
           at: .
       - run:
           name: Publish npm Package
-          # Check for the current version in the registry, and if it's not
-          # found, publish it. We know the version is not yet in the registry if
-          # `yarn info` returns no `dist` field. (Also, if `yarn info` returns
-          # an error, it may be because the package has never been published.)
-          command: |
-            name="$(jq --raw-output .name package.json)"
-            version="$(jq --raw-output .version package.json)"
-            full_identifier="$name@$version"
-            echo "Checking for published version..."
-            if [ $(yarn -s info $full_identifier --json 2>&1 | jq -s '.[0].type == "error" or .[0].data.dist == null') == "true" ]
-            then
-              echo "Publishing $full_identifier…"
-              yarn publish
-            else
-              echo "$full_identifier already published. Doing nothing."
-            fi
+          command: yarn semantic-release
 
 workflows:
   test-and-publish:

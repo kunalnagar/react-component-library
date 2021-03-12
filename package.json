@@ -1,7 +1,11 @@
 {
   "name": "@kunalnagarco/react-component-library",
-  "version": "3.0.9",
+  "version": "0.0.0-development",
   "description": "A collection of reusable React Components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunalnagarco/react-component-library.git"
+  },
   "license": "MIT",
   "sideEffects": false,
   "main": "dist/index.js",
@@ -16,7 +20,8 @@
     "lint": "eslint --fix src/ --ext .ts,.tsx --max-warnings 0",
     "lint:github": "yaml-validator .github/workflows/build.yml && yaml-validator .github/workflows/release-storybook.yml",
     "release": "standard-version",
-    "start": "start-storybook -p 9009"
+    "start": "start-storybook -p 9009",
+    "semantic-release": "semantic-release"
   },
   "husky": {
     "hooks": {
@@ -102,6 +107,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.2",
     "rollup-plugin-postcss": "^3.1.6",
     "rollup-plugin-typescript2": "^0.27.0",
+    "semantic-release": "^17.4.2",
     "sort-package-json": "^1.44.0",
     "standard-version": "^9.0.0",
     "styled-components": "^5.1.1",
