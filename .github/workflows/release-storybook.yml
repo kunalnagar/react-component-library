@@ -12,16 +12,20 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - name: Install npm dependencies
-        run: npm install
+      - uses: actions/cache@v2
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+      - name: Install dependencies
+        run: yarn install
       - name: Lint code + YML
         run: |
-          npm run lint
-          npm run lint:github
-      - name: Create npm build
-        run: npm run build
+          yarn lint
+          yarn lint:github
+      - name: Create build
+        run: yarn build
       - name: Create Storybook build
-        run: npm run build:storybook
+        run: yarn build:storybook
       - name: Release
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
