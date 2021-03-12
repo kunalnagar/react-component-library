@@ -25,6 +25,9 @@ jobs:
       - run:
           name: Build distribution files
           command: yarn build
+      - persist_to_workspace:
+          root: .
+          paths: .
 
   publish-release:
     executor: node
