@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.7](https://github.com/kunalnagar/react-component-library/compare/v3.0.6...v3.0.7) (2021-03-12)
+
+
+### Bug Fixes
+
+* Accordion list style ([9a9cf5e](https://github.com/kunalnagar/react-component-library/commit/9a9cf5e1fc0fb967932139f282325ae5b2eef412))
+
 ### [3.0.6](https://github.com/kunalnagar/react-component-library/compare/v3.0.5...v3.0.6) (2021-03-12)
 
 
