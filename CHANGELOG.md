@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.9](https://github.com/kunalnagar/react-component-library/compare/v3.0.8...v3.0.9) (2021-03-12)
+
+
+### Chores
+
+* Remove scripts from final deploy ([17f6eb0](https://github.com/kunalnagar/react-component-library/commit/17f6eb0b90a9a4093d76aa8deecbe81abfec6c16))
+
 ### [3.0.8](https://github.com/kunalnagar/react-component-library/compare/v3.0.7...v3.0.8) (2021-03-12)
 
 
