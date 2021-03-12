@@ -74,18 +74,14 @@ jobs:
 workflows:
   test-and-publish:
     jobs:
-      - build:
-          context: react-component-library
+      - build
       - test:
-          context: react-component-library
           requires:
             - build
       - lint:
-          context: react-component-library
           requires:
             - build
       - publish-release:
-          context: react-component-library
           filters:
             branches:
               only: master
