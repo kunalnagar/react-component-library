@@ -4,6 +4,7 @@ import { IAccordionItemProps } from 'types'
 
 export const AccordionStyled = styled.ul`
   padding-left: 0;
+  list-style: none;
 `
 
 export const AccordionItemTitleStyled = styled.button`
