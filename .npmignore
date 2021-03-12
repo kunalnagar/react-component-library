@@ -1,7 +1,3 @@
-.storybook
-.github
-storybook
-src
 .babelrc.json
 .nvmrc
 .prettierrc
@@ -11,3 +7,8 @@ src
 rollup.config.js
 tsconfig.json
 release
+scripts
+.storybook
+.github
+storybook
+src
