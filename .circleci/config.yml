@@ -15,41 +15,20 @@ executors:
       - image: circleci/node:14.16.0
 
 jobs:
-  build:
+  lint-build:
     executor: node
     steps:
       - setup
-      - run:
-          name: Build distribution files
-          command: yarn build
-      - persist_to_workspace:
-          root: .
-          paths: .
-
-  test:
-    executor: node
-    steps:
-      - setup
-      - attach_workspace:
-          at: .
-      - run:
-          name: Run Tests
-          command: yarn test:ci
-
-  lint:
-    executor: node
-    steps:
-      - setup
-      - attach_workspace:
-          at: .
       - run:
           name: Lint source code
           command: yarn lint
+      - run:
+          name: Build distribution files
+          command: yarn build
 
   publish-release:
     executor: node
     steps:
-      - setup
       - attach_workspace:
           at: .
       - run:
@@ -74,17 +53,10 @@ jobs:
 workflows:
   test-and-publish:
     jobs:
-      - build
-      - test:
-          requires:
-            - build
-      - lint:
-          requires:
-            - build
+      - lint-build
       - publish-release:
           filters:
             branches:
               only: master
           requires:
-            - lint
-            - build
+            - lint-build
