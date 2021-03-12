@@ -1,5 +1,18 @@
 # Changelog
 
+### [3.0.10](https://github.com/kunalnagarco/react-component-library/compare/v3.0.9...v3.0.10) (2021-03-12)
+
+
+### Bug Fixes
+
+* Lint errors ([aac98f5](https://github.com/kunalnagarco/react-component-library/commit/aac98f52c2e1166b0195dc74f9d762922be9c6d2))
+* Missing semantic-release deps ([7fa3067](https://github.com/kunalnagarco/react-component-library/commit/7fa3067afc902f538ce34335aaa859f18f07aec8))
+
+
+### Chores
+
+* **release:** 3.0.9 ([4943b91](https://github.com/kunalnagarco/react-component-library/commit/4943b911db937c7142eb03c9f8c62e2ee88d3e29))
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### [3.0.9](https://github.com/kunalnagar/react-component-library/compare/v3.0.8...v3.0.9) (2021-03-12)
