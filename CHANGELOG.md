@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.6](https://github.com/kunalnagar/react-component-library/compare/v3.0.5...v3.0.6) (2021-03-12)
+
+
+### Bug Fixes
+
+* GitHub vulnerabilities ([bf63607](https://github.com/kunalnagar/react-component-library/commit/bf6360745a91d51d22d7b217017c21b5afa8f4f1))
+
+
+### Chores
+
+* Switch to yarn + fix deps ([aa8b7b8](https://github.com/kunalnagar/react-component-library/commit/aa8b7b877a0438192e16c0ec342546f3d11d8d1f))
+* Upgrade Storybook ([2a8bf47](https://github.com/kunalnagar/react-component-library/commit/2a8bf479400946726739f336fd9daafd85cbd3c8))
+* **deps:** bump ini from 1.3.5 to 1.3.8 ([#60](https://github.com/kunalnagar/react-component-library/issues/60)) ([ae51c33](https://github.com/kunalnagar/react-component-library/commit/ae51c33e6e3290fc70cfc63c86dd8396b5325047))
+* **deps:** bump nested-object-assign from 1.0.3 to 1.0.4 ([#61](https://github.com/kunalnagar/react-component-library/issues/61)) ([f72a21c](https://github.com/kunalnagar/react-component-library/commit/f72a21ce4f0b7c085aaf21d3d0105c346e94501f))
+* **release:** 3.0.5 ([974bc27](https://github.com/kunalnagar/react-component-library/commit/974bc27ee30197a7b0ba2395381a3ccf20958464))
+
 ### [3.0.5](https://github.com/kunalnagar/react-component-library/compare/v3.0.4...v3.0.5) (2020-10-07)
 
 
