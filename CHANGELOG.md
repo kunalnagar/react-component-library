@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.11](https://github.com/kunalnagarco/react-component-library/compare/v3.0.10...v3.0.11) (2021-03-13)
+
+
+### Chores
+
+* Remove deploy script ([b88b543](https://github.com/kunalnagarco/react-component-library/commit/b88b543fb60238e0c1006bcc9df679ff1e8146f6))
+
 ### [3.0.10](https://github.com/kunalnagarco/react-component-library/compare/v3.0.9...v3.0.10) (2021-03-12)
 
 
