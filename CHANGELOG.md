@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.12](https://github.com/kunalnagarco/react-component-library/compare/v3.0.11...v3.0.12) (2021-03-22)
+
+
+### Chores
+
+* Fix vulnerabilities ([c644b28](https://github.com/kunalnagarco/react-component-library/commit/c644b28f2998492dd2b0efa4c2fc7e74529c372f))
+
 ### [3.0.11](https://github.com/kunalnagarco/react-component-library/compare/v3.0.10...v3.0.11) (2021-03-13)
 
 
