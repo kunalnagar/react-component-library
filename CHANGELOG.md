@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.13](https://github.com/kunalnagarco/react-component-library/compare/v3.0.12...v3.0.13) (2021-03-26)
+
+
+### Chores
+
+* Remove .circleci folder from release package ([#65](https://github.com/kunalnagarco/react-component-library/issues/65)) ([cbd0ab8](https://github.com/kunalnagarco/react-component-library/commit/cbd0ab8b77d6c851920db6d74648fd8ab1d3c32f))
+
 ### [3.0.12](https://github.com/kunalnagarco/react-component-library/compare/v3.0.11...v3.0.12) (2021-03-22)
 
 
