@@ -10,5 +10,8 @@ release
 scripts
 .storybook
 .github
+.circleci
+.releaserc.json
 storybook
 src
+*.tgz
