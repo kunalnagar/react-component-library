@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.26](https://github.com/kunalnagarco/react-component-library/compare/v3.0.25...v3.0.26) (2021-05-12)
+
+
+### Chores
+
+* **deps:** update dependency rollup-plugin-typescript2 to v0.30.0 ([1ea4a28](https://github.com/kunalnagarco/react-component-library/commit/1ea4a288722c42e7dcee5834d5a10b34aec328ad))
+
 ### [3.0.25](https://github.com/kunalnagarco/react-component-library/compare/v3.0.24...v3.0.25) (2021-05-12)
 
 
