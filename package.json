@@ -53,7 +53,7 @@
     "marked": "0.7.0",
     "mem": ">=4.0.0",
     "node-fetch": "2.6.1",
-    "node-notifier": "8.0.1",
+    "node-notifier": "8.0.2",
     "prismjs": "1.23.0",
     "yargs-parser": ">=18.1.2"
   },
