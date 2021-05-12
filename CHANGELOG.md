@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.21](https://github.com/kunalnagarco/react-component-library/compare/v3.0.20...v3.0.21) (2021-05-12)
+
+
+### Chores
+
+* **deps:** update dependency eslint-plugin-prettier to v3.4.0 ([09cdde0](https://github.com/kunalnagarco/react-component-library/commit/09cdde0b04c793da388b8b720959cc9337b63dbf))
+
 ### [3.0.20](https://github.com/kunalnagarco/react-component-library/compare/v3.0.19...v3.0.20) (2021-05-12)
 
 
