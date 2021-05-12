@@ -1,5 +1,16 @@
 # Changelog
 
+### [3.0.14](https://github.com/kunalnagarco/react-component-library/compare/v3.0.13...v3.0.14) (2021-05-12)
+
+
+### Chores
+
+* **deps:** update dependency @types/react to v16.14.6 ([f67c469](https://github.com/kunalnagarco/react-component-library/commit/f67c469cbf5084f61062c567442809a3648d7590))
+* Update README ([96e9266](https://github.com/kunalnagarco/react-component-library/commit/96e9266918545940318040ab4db8b4e7e7a85cf6))
+* **deps:** pin dependencies ([#67](https://github.com/kunalnagarco/react-component-library/issues/67)) ([5adb528](https://github.com/kunalnagarco/react-component-library/commit/5adb528f2d98c3bcc3866abb40297ca8aa27ba20))
+* **deps:** update dependency @types/node to v13.13.51 ([#68](https://github.com/kunalnagarco/react-component-library/issues/68)) ([83b999b](https://github.com/kunalnagarco/react-component-library/commit/83b999b3d43617be1eea89bdafce5a36674aabf3))
+* Update Renovate Config ([8a21e2c](https://github.com/kunalnagarco/react-component-library/commit/8a21e2c5a2a8dc9711bc8500706afdbadfa93baa))
+
 ### [3.0.13](https://github.com/kunalnagarco/react-component-library/compare/v3.0.12...v3.0.13) (2021-03-26)
 
 
