@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.30](https://github.com/kunalnagarco/react-component-library/compare/v3.0.29...v3.0.30) (2021-05-12)
+
+
+### Chores
+
+* **deps:** update dependency @types/node to v13.13.52 ([3921151](https://github.com/kunalnagarco/react-component-library/commit/39211518ea546954d6300bf5ab51960b988ba7f2))
+
 ### [3.0.29](https://github.com/kunalnagarco/react-component-library/compare/v3.0.28...v3.0.29) (2021-05-12)
 
 
