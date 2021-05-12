@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.17](https://github.com/kunalnagarco/react-component-library/compare/v3.0.16...v3.0.17) (2021-05-12)
+
+
+### Chores
+
+* **deps:** update dependency node-notifier to v8.0.2 ([2c6bfbf](https://github.com/kunalnagarco/react-component-library/commit/2c6bfbfda17b4dd4f57ff8f792aaec0f326b6459))
+
 ### [3.0.16](https://github.com/kunalnagarco/react-component-library/compare/v3.0.15...v3.0.16) (2021-05-12)
 
 
