@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.19](https://github.com/kunalnagarco/react-component-library/compare/v3.0.18...v3.0.19) (2021-05-12)
+
+
+### Chores
+
+* **deps:** update semantic-release monorepo ([f56afb0](https://github.com/kunalnagarco/react-component-library/commit/f56afb09c4dad492db4051420688afc85fef1d2e))
+
 ### [3.0.18](https://github.com/kunalnagarco/react-component-library/compare/v3.0.17...v3.0.18) (2021-05-12)
 
 
