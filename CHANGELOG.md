@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.20](https://github.com/kunalnagarco/react-component-library/compare/v3.0.19...v3.0.20) (2021-05-12)
+
+
+### Chores
+
+* **deps:** update babel monorepo ([fa324e1](https://github.com/kunalnagarco/react-component-library/commit/fa324e136c07e1f0bccef907d15af54cbd6bd71c))
+
 ### [3.0.19](https://github.com/kunalnagarco/react-component-library/compare/v3.0.18...v3.0.19) (2021-05-12)
 
 
