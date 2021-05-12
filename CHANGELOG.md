@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.16](https://github.com/kunalnagarco/react-component-library/compare/v3.0.15...v3.0.16) (2021-05-12)
+
+
+### Chores
+
+* **deps:** update dependency immer to v8.0.4 ([f862eae](https://github.com/kunalnagarco/react-component-library/commit/f862eaefb2ef86933df027dd50e9cc7338ddfe21))
+
 ### [3.0.15](https://github.com/kunalnagarco/react-component-library/compare/v3.0.14...v3.0.15) (2021-05-12)
 
 
