@@ -116,7 +116,7 @@
     "rollup-plugin-typescript2": "0.30.0",
     "semantic-release": "17.4.3",
     "sort-package-json": "1.50.0",
-    "standard-version": "9.1.1",
+    "standard-version": "9.3.0",
     "styled-components": "5.2.1",
     "ttypescript": "1.5.12",
     "typescript": "3.7.7",
