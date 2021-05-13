@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.33](https://github.com/kunalnagarco/react-component-library/compare/v3.0.32...v3.0.33) (2021-05-13)
+
+
+### Chores
+
+* **deps:** update dependency typescript to v3.9.9 ([be75588](https://github.com/kunalnagarco/react-component-library/commit/be75588c1f9211fb3f7c3e540d7f5ecac716c91b))
+
 ### [3.0.32](https://github.com/kunalnagarco/react-component-library/compare/v3.0.31...v3.0.32) (2021-05-13)
 
 
