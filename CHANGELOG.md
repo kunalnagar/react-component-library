@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.39](https://github.com/kunalnagarco/react-component-library/compare/v3.0.38...v3.0.39) (2021-05-15)
+
+
+### Chores
+
+* **deps:** update dependency eslint-plugin-import to v2.23.2 ([ccb0223](https://github.com/kunalnagarco/react-component-library/commit/ccb0223be453f47dd413c296ba866b3072303327))
+
 ### [3.0.38](https://github.com/kunalnagarco/react-component-library/compare/v3.0.37...v3.0.38) (2021-05-15)
 
 
