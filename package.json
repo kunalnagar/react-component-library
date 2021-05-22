@@ -84,7 +84,7 @@
     "@svgr/rollup": "5.5.0",
     "@types/brainhubeu__react-carousel": "2.0.2",
     "@types/node": "13.13.52",
-    "@types/react": "16.14.6",
+    "@types/react": "17.0.6",
     "@types/react-dom": "16.9.13",
     "@types/styled-components": "5.1.9",
     "@typescript-eslint/parser": "4.24.0",
