@@ -1,7 +1,7 @@
 /* eslint-disable react/no-danger */
-/* eslint-disable camelcase */
 import React, { useEffect, useState } from 'react'
 import { stringify } from 'querystring'
+import { loadScript } from 'utils/loadScript'
 
 declare global {
   interface Window {
@@ -10,28 +10,13 @@ declare global {
   }
 }
 
-interface IInstagramFeed {
+interface Props {
   url: string
   clientAccessToken: string
 }
 
-export const InstagramPostEmbed = ({
-  url,
-  clientAccessToken,
-}: IInstagramFeed) => {
+export const InstagramPostEmbed = ({ url, clientAccessToken }: Props) => {
   const [html, setHtml] = useState('')
-
-  const injectScript = (cb: () => void) => {
-    const s = document.createElement('script')
-    s.async = true
-    s.src = `https://platform.instagram.com/en_US/embeds.js`
-    s.id = 'react-instagram-embed-script'
-    s.addEventListener('load', cb)
-    const { body } = document
-    if (body) {
-      body.appendChild(s)
-    }
-  }
 
   useEffect(() => {
     async function fetchEmbed() {
@@ -57,9 +42,16 @@ export const InstagramPostEmbed = ({
   useEffect(() => {
     if (html) {
       if (typeof window.instgrm === 'undefined') {
-        injectScript(() => {
-          window.instgrm.Embeds.process()
-        })
+        loadScript(
+          {
+            url: 'https://platform.instagram.com/en_US/embeds.js',
+            id: 'react-instagram-embed',
+            async: true,
+          },
+          () => {
+            window.instgrm.Embeds.process()
+          },
+        )
       } else {
         window.instgrm.Embeds.process()
       }
