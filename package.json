@@ -51,7 +51,7 @@
   "resolutions": {
     "highlight.js": "10.7.2",
     "immer": "9.0.2",
-    "marked": "0.8.2",
+    "marked": "2.0.5",
     "mem": ">=4.0.0",
     "node-fetch": "2.6.1",
     "node-notifier": "9.0.1",
