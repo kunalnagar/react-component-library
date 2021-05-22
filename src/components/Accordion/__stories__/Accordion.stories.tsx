@@ -12,6 +12,7 @@ export default {
 export const Basic = () => {
   const [activeItem, setActiveItem] = useState<number | null>()
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleClick = (e: any, index: number) => {
     if (activeItem === index) {
       setActiveItem(null)

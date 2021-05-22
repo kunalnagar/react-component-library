@@ -4,7 +4,6 @@ import { TWeight } from 'theme/types'
 import { ISpacing } from 'theme/spacing'
 
 declare module 'styled-components' {
-  // eslint-disable-next-line @typescript-eslint/interface-name-prefix
   export interface DefaultTheme {
     colors: {
       black: string
