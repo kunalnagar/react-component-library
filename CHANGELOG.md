@@ -1,5 +1,16 @@
 # Changelog
 
+### [3.0.48](https://github.com/kunalnagarco/react-component-library/compare/v3.0.47...v3.0.48) (2021-05-22)
+
+
+### Chores
+
+* **deps:** update dependency @rollup/plugin-url to v6 ([#91](https://github.com/kunalnagarco/react-component-library/issues/91)) ([f8f2d6b](https://github.com/kunalnagarco/react-component-library/commit/f8f2d6b7450ad231f20214161bf7f18d28f92427))
+* **deps:** update dependency @types/react-dom to v17 ([#94](https://github.com/kunalnagarco/react-component-library/issues/94)) ([89a6b7c](https://github.com/kunalnagarco/react-component-library/commit/89a6b7c403e8dd12b879da40e80e9025cb5b8550))
+* **deps:** update dependency marked to v2 ([#99](https://github.com/kunalnagarco/react-component-library/issues/99)) ([cb0d316](https://github.com/kunalnagarco/react-component-library/commit/cb0d316b55b8b12cd13fad46ef867d422d999aac))
+* **deps:** update dependency postcss-import to v14 ([#102](https://github.com/kunalnagarco/react-component-library/issues/102)) ([2d7a51a](https://github.com/kunalnagarco/react-component-library/commit/2d7a51aafe26ec9fc479ab7d9d07df7c7508cc5f))
+* **deps:** update dependency react-scripts to v4 ([#103](https://github.com/kunalnagarco/react-component-library/issues/103)) ([f27382a](https://github.com/kunalnagarco/react-component-library/commit/f27382a2c6843530b2512a06dc2bf731361a5cd3))
+
 ### [3.0.47](https://github.com/kunalnagarco/react-component-library/compare/v3.0.46...v3.0.47) (2021-05-22)
 
 
