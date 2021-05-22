@@ -1,4 +1,4 @@
-export interface IAccordionProps extends React.HTMLProps<HTMLUListElement> {}
+export type IAccordionProps = React.HTMLProps<HTMLUListElement>
 
 export interface IAccordionItemProps extends React.HTMLProps<HTMLLIElement> {
   isExpanded?: boolean

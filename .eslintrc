@@ -1,0 +1,21 @@
+{
+  "extends": ["@kunalnagarco"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "rules": {
+        "import/prefer-default-export": "off",
+        "react/jsx-props-no-spreading": "off",
+        "import/no-extraneous-dependencies": "off",
+        "no-restricted-globals": "off",
+        "radix": "off",
+        "import/no-unresolved": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "no-restricted-syntax": "off"
+      }
+    }
+  ]
+}

@@ -15,24 +15,22 @@ const AccordionItem = ({
   label,
   children,
   ...rest
-}: IAccordionItemProps) => {
-  return (
-    <li {...rest}>
-      <h3>
-        <AccordionItemTitleStyled aria-expanded={isExpanded ? true : false}>
-          {isExpanded ? iconExpanded : iconCollapsed}
-          {label}
-        </AccordionItemTitleStyled>
-      </h3>
-      <AccordionItemContentStyled isExpanded={isExpanded}>
-        {children}
-      </AccordionItemContentStyled>
-    </li>
-  )
-}
+}: IAccordionItemProps) => (
+  <li {...rest}>
+    <h3>
+      <AccordionItemTitleStyled aria-expanded={!!isExpanded}>
+        {isExpanded ? iconExpanded : iconCollapsed}
+        {label}
+      </AccordionItemTitleStyled>
+    </h3>
+    <AccordionItemContentStyled isExpanded={isExpanded}>
+      {children}
+    </AccordionItemContentStyled>
+  </li>
+)
 
-export const Accordion = ({ children, style }: IAccordionProps) => {
-  return <AccordionStyled style={style}>{children}</AccordionStyled>
-}
+export const Accordion = ({ children, style }: IAccordionProps) => (
+  <AccordionStyled style={style}>{children}</AccordionStyled>
+)
 
 Accordion.Item = AccordionItem

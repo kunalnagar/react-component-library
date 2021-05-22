@@ -22,7 +22,7 @@ type TSpacing = {
   [TKey in TSpacingKeys]: string
 }
 
-export interface ISpacing extends TSpacing {}
+export type ISpacing = TSpacing
 
 export const spacing: ISpacing = {
   0: '0',

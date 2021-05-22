@@ -17,14 +17,12 @@ for (const item in ESize) {
   }
 }
 
-export const Basic = () => {
-  return (
-    <Button
-      label={text('label', 'Sample aria label text')}
-      size={select('size', sizes, ESize.md)}
-      variant={select('variant', EVariant, EVariant.default)}
-    >
-      Button
-    </Button>
-  )
-}
+export const Basic = () => (
+  <Button
+    label={text('label', 'Sample aria label text')}
+    size={select('size', sizes, ESize.md)}
+    variant={select('variant', EVariant, EVariant.default)}
+  >
+    Button
+  </Button>
+)
