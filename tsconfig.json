@@ -23,5 +23,5 @@
     "rootDir": "src"
   },
   "include": ["src"],
-  "exclude": ["storybook", "dist"]
+  "exclude": ["storybook", "dist", "**/*.spec.ts", "**/*.spec.tsx"]
 }
