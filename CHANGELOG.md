@@ -1,5 +1,23 @@
 # Changelog
 
+### [3.0.47](https://github.com/kunalnagarco/react-component-library/compare/v3.0.46...v3.0.47) (2021-05-22)
+
+
+### Chores
+
+* **deps:** update dependency @brainhubeu/react-carousel to v2 ([#89](https://github.com/kunalnagarco/react-component-library/issues/89)) ([37dc6bb](https://github.com/kunalnagarco/react-component-library/commit/37dc6bb76cb25eb722cf78daea5553eeb6507ae1))
+* **deps:** update dependency @rollup/plugin-node-resolve to v13 ([#90](https://github.com/kunalnagarco/react-component-library/issues/90)) ([34fc277](https://github.com/kunalnagarco/react-component-library/commit/34fc2778e163537138ea49fd486a538372e884ca))
+* **deps:** update dependency @types/brainhubeu__react-carousel to v2 ([#92](https://github.com/kunalnagarco/react-component-library/issues/92)) ([fecc8af](https://github.com/kunalnagarco/react-component-library/commit/fecc8af24d174500d3290cc2e7c2090cde41ebe1))
+* **deps:** update dependency @types/react to v17 ([#93](https://github.com/kunalnagarco/react-component-library/issues/93)) ([ff92b1a](https://github.com/kunalnagarco/react-component-library/commit/ff92b1af0c2a47cbd773f3c64719a5af52bd120f))
+* **deps:** update dependency @typescript-eslint/parser to v4 ([#111](https://github.com/kunalnagarco/react-component-library/issues/111)) ([f8b38ad](https://github.com/kunalnagarco/react-component-library/commit/f8b38ad48862faed639d198a52974e4c119f2ee4))
+* **deps:** update dependency husky to v6 ([#96](https://github.com/kunalnagarco/react-component-library/issues/96)) ([5d80865](https://github.com/kunalnagarco/react-component-library/commit/5d808655b02f02e29ed38f50e3c8c542519b89da))
+* **deps:** update dependency immer to v9 ([#97](https://github.com/kunalnagarco/react-component-library/issues/97)) ([17df463](https://github.com/kunalnagarco/react-component-library/commit/17df463c9392612acf750e745287de53c691a448))
+* **deps:** update dependency lint-staged to v11 ([#98](https://github.com/kunalnagarco/react-component-library/issues/98)) ([65bc7b4](https://github.com/kunalnagarco/react-component-library/commit/65bc7b46c4a73bd7778e9dbca5df1a5b254c9039))
+* **deps:** update dependency node-notifier to v9 ([#100](https://github.com/kunalnagarco/react-component-library/issues/100)) ([274d590](https://github.com/kunalnagarco/react-component-library/commit/274d5902cfaafee8262887dc97a57f288582643c))
+* **deps:** update dependency polished to v4 ([#101](https://github.com/kunalnagarco/react-component-library/issues/101)) ([b59f3de](https://github.com/kunalnagarco/react-component-library/commit/b59f3de14decd244dbd46ee141caeb8f0da8e27c))
+* **deps:** update dependency rollup to v2 ([#104](https://github.com/kunalnagarco/react-component-library/issues/104)) ([38c495f](https://github.com/kunalnagarco/react-component-library/commit/38c495ffac4bfe5f1fde7ce230b3c53880aee109))
+* **deps:** update dependency rollup-plugin-postcss to v4 ([#105](https://github.com/kunalnagarco/react-component-library/issues/105)) ([45f249d](https://github.com/kunalnagarco/react-component-library/commit/45f249d79cf9669dc7f0c54daba2441f93356889))
+
 ### [3.0.46](https://github.com/kunalnagarco/react-component-library/compare/v3.0.45...v3.0.46) (2021-05-22)
 
 
