@@ -1,9 +1,11 @@
+/* eslint-disable react/no-danger */
 /* eslint-disable camelcase */
 import React, { useEffect, useState } from 'react'
 import { stringify } from 'querystring'
 
 declare global {
   interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     instgrm: any
   }
 }
