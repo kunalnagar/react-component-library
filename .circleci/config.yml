@@ -7,7 +7,7 @@ commands:
       - run:
           name: 'Login to npm'
           command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-      - run: yarn install --frozen-lockfile
+      - run: npm ci
 
 executors:
   node:
@@ -21,10 +21,10 @@ jobs:
       - setup
       - run:
           name: Lint source code
-          command: yarn lint
+          command: npm run lint
       - run:
           name: Build distribution files
-          command: yarn build
+          command: npm run build
       - persist_to_workspace:
           root: .
           paths: .
@@ -36,7 +36,7 @@ jobs:
           at: .
       - run:
           name: Publish npm Package
-          command: yarn semantic-release
+          command: npm run semantic-release
 
 workflows:
   test-and-publish:

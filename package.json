@@ -16,9 +16,7 @@
     "build": "rollup -c",
     "postbuild": "find dist -type d -name '__stories__' -exec rm -r {} + && find dist -type f -name '*.stories.*' -delete",
     "build:storybook": "build-storybook -o release",
-    "deploy": "sh ./scripts/deploy.sh && yarn build && yarn publish",
     "lint": "eslint --fix src/ --ext .ts,.tsx --max-warnings 0",
-    "release": "standard-version",
     "start": "start-storybook -p 9009",
     "semantic-release": "semantic-release"
   },
