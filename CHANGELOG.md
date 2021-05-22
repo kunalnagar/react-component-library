@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.41](https://github.com/kunalnagarco/react-component-library/compare/v3.0.40...v3.0.41) (2021-05-22)
+
+
+### Chores
+
+* Switch to npm ([67c6791](https://github.com/kunalnagarco/react-component-library/commit/67c679138ffc400490c22d30f6f2e42af7316e34))
+
 ### [3.0.40](https://github.com/kunalnagarco/react-component-library/compare/v3.0.39...v3.0.40) (2021-05-17)
 
 
