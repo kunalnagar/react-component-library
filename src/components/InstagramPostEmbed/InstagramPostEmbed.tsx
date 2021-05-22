@@ -21,10 +21,6 @@ interface Props {
    */
   url: string
   /**
-   * If your app must access the oEmbed endpoint from a user agent such as a
-   * mobile device or web browser, your app must use a Client Access Token and
-   * will be subject to Client Token Rate Limits.
-   *
    * To get a Client Access Token, sign into your App Dashboard and navigate to
    * Settings > Advanced > Security > Client Token.
    *
@@ -53,7 +49,7 @@ interface Props {
 export const InstagramPostEmbed = ({
   url,
   clientAccessToken,
-  hideCaption,
+  hideCaption = false,
   maxWidth,
 }: Props) => {
   const [html, setHtml] = useState('')

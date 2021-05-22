@@ -12,7 +12,6 @@ export const Default = () => (
     <InstagramPostEmbed
       url="https://www.instagram.com/p/CO_u0wftV4Q/"
       clientAccessToken={clientAccessToken}
-      hideCaption
     />
   </>
 )
