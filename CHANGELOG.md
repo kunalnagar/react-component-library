@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.43](https://github.com/kunalnagarco/react-component-library/compare/v3.0.42...v3.0.43) (2021-05-22)
+
+
+### Chores
+
+* Switch ESLint package ([#109](https://github.com/kunalnagarco/react-component-library/issues/109)) ([d9417bd](https://github.com/kunalnagarco/react-component-library/commit/d9417bda4cc7934cc0159c69147f365b64c44024))
+
 ### [3.0.42](https://github.com/kunalnagarco/react-component-library/compare/v3.0.41...v3.0.42) (2021-05-22)
 
 
