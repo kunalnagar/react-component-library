@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable react/no-danger */
 import React, { useEffect, useState } from 'react'
 import { stringify } from 'querystring'
@@ -5,11 +7,14 @@ import { loadScript } from 'utils/loadScript'
 
 declare global {
   interface Window {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     instgrm: any
   }
 }
 
+/**
+ * This component uses the Instagram Oembed API: https://developers.facebook.com/docs/graph-api/reference/instagram-oembed
+ * Error codes: https://developers.facebook.com/docs/graph-api/using-graph-api/error-handling
+ */
 interface Props {
   /**
    * The post's URL.
@@ -70,8 +75,18 @@ export const InstagramPostEmbed = ({
           method: 'GET',
         },
       )
-      const data = JSON.parse(await response.text())
-      setHtml(data.html)
+      const data = await response.json()
+      if (response.ok && data) {
+        setHtml(data.html)
+      } else {
+        const { error } = data
+        setHtml(
+          `${error.message} ${
+            error.error_user_msg ? error.error_user_msg : ''
+          }`,
+        )
+        console.error(error)
+      }
     }
     fetchEmbed()
   }, [url, clientAccessToken, hideCaption, maxWidth])
