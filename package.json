@@ -94,7 +94,7 @@
     "babel-preset-react": "6.24.1",
     "eslint": "7.27.0",
     "eslint-config-airbnb-typescript-prettier": "4.2.0",
-    "husky": "4.3.8",
+    "husky": "6.0.0",
     "jest": "25.5.4",
     "lint-staged": "10.5.4",
     "normalize.css": "8.0.1",
