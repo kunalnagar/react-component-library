@@ -12,6 +12,7 @@ export const Default = () => (
     <InstagramPostEmbed
       url="https://www.instagram.com/p/CO_u0wftV4Q/"
       clientAccessToken={clientAccessToken}
+      hideCaption
     />
   </>
 )
@@ -25,6 +26,36 @@ export const Multiple = () => (
     <InstagramPostEmbed
       url="https://www.instagram.com/p/CNyrgMsh3a2/"
       clientAccessToken={clientAccessToken}
+    />
+  </>
+)
+
+export const hideCaption = () => (
+  <>
+    <InstagramPostEmbed
+      url="https://www.instagram.com/p/CNxdfcCB8Yb/"
+      clientAccessToken={clientAccessToken}
+      hideCaption
+    />
+  </>
+)
+
+export const maxWidth320 = () => (
+  <>
+    <InstagramPostEmbed
+      url="https://www.instagram.com/p/CNxdfcCB8Yb/"
+      clientAccessToken={clientAccessToken}
+      maxWidth={320}
+    />
+  </>
+)
+
+export const maxWidth658 = () => (
+  <>
+    <InstagramPostEmbed
+      url="https://www.instagram.com/p/CNxdfcCB8Yb/"
+      clientAccessToken={clientAccessToken}
+      maxWidth={658}
     />
   </>
 )

@@ -14,7 +14,8 @@
         "radix": "off",
         "import/no-unresolved": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
-        "no-restricted-syntax": "off"
+        "no-restricted-syntax": "off",
+        "react/require-default-props": "off"
       }
     }
   ]
