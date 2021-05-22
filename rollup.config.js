@@ -63,7 +63,7 @@ export default {
     }),
     json(),
     resolve({
-      customResolveOptions: { moduleDirectory: ['src', 'node_modules'] },
+      customResolveOptions: { moduleDirectories: ['src', 'node_modules'] },
     }),
     postcss({
       plugins: [atImport()],
