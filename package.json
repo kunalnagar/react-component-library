@@ -96,7 +96,7 @@
     "eslint-config-airbnb-typescript-prettier": "4.2.0",
     "husky": "6.0.0",
     "jest": "25.5.4",
-    "lint-staged": "10.5.4",
+    "lint-staged": "11.0.0",
     "normalize.css": "8.0.1",
     "polished": "3.7.1",
     "postcss-import": "12.0.1",
