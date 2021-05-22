@@ -25,6 +25,9 @@ jobs:
       - run:
           name: Build distribution files
           command: npm run build
+      - run:
+          name: Release pre-check
+          command: npm pack
       - persist_to_workspace:
           root: .
           paths: .
