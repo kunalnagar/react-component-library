@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.44](https://github.com/kunalnagarco/react-component-library/compare/v3.0.43...v3.0.44) (2021-05-22)
+
+
+### Chores
+
+* Remove yarn.lock ([3757da0](https://github.com/kunalnagarco/react-component-library/commit/3757da0a382020f2a5924fdb7e0becedb99ee100))
+
 ### [3.0.43](https://github.com/kunalnagarco/react-component-library/compare/v3.0.42...v3.0.43) (2021-05-22)
 
 
