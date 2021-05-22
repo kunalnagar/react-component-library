@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.42](https://github.com/kunalnagarco/react-component-library/compare/v3.0.41...v3.0.42) (2021-05-22)
+
+
+### Chores
+
+* Update node ([b612b84](https://github.com/kunalnagarco/react-component-library/commit/b612b84f35f218d546e810cc01379f0a16a2a49d))
+
 ### [3.0.41](https://github.com/kunalnagarco/react-component-library/compare/v3.0.40...v3.0.41) (2021-05-22)
 
 
