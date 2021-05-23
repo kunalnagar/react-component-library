@@ -5,7 +5,7 @@ export default {
   title: 'InstagramPostEmbed',
 }
 
-const clientAccessToken = process.env.REACT_APP_INSTAGRAM_OEMBED_TOKEN || ''
+const clientAccessToken = process.env.STORYBOOK_INSTAGRAM_OEMBED_TOKEN || ''
 
 export const Default = () => (
   <>
