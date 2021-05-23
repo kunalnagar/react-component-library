@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.6](https://github.com/kunalnagarco/react-component-library/compare/v3.1.5...v3.1.6) (2021-05-23)
+
+
+### Bug Fixes
+
+* Update Storybook Env Variable name ([8b47b2d](https://github.com/kunalnagarco/react-component-library/commit/8b47b2d325c08df4d67bf47aec996a59da385c7e))
+
 ### [3.1.5](https://github.com/kunalnagarco/react-component-library/compare/v3.1.4...v3.1.5) (2021-05-23)
 
 
