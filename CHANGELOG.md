@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.4](https://github.com/kunalnagarco/react-component-library/compare/v3.1.3...v3.1.4) (2021-05-23)
+
+
+### Chores
+
+* Update yml syntax ([47fedcb](https://github.com/kunalnagarco/react-component-library/commit/47fedcb03016ea6b5515c3dc4826236face6b565))
+
 ### [3.1.3](https://github.com/kunalnagarco/react-component-library/compare/v3.1.2...v3.1.3) (2021-05-23)
 
 
