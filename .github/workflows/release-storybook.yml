@@ -24,7 +24,7 @@ jobs:
       - name: Create Storybook build
         run: npm run build:storybook
         env:
-          REACT_APP_INSTAGRAM_OEMBED_TOKEN=${{ secrets.REACT_APP_INSTAGRAM_OEMBED_TOKEN }}
+          REACT_APP_INSTAGRAM_OEMBED_TOKEN: ${{ secrets.REACT_APP_INSTAGRAM_OEMBED_TOKEN }}
       - name: Release
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
