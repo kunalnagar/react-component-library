@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.1](https://github.com/kunalnagarco/react-component-library/compare/v3.1.0...v3.1.1) (2021-05-23)
+
+
+### Chores
+
+* **deps:** pin dependencies ([2858e40](https://github.com/kunalnagarco/react-component-library/commit/2858e40c3e673f4269cd52ecc53341c87b38bcec))
+
 ## [3.1.0](https://github.com/kunalnagarco/react-component-library/compare/v3.0.48...v3.1.0) (2021-05-23)
 
 
