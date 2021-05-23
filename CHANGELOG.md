@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/kunalnagarco/react-component-library/compare/v3.0.48...v3.1.0) (2021-05-23)
+
+
+### Features
+
+* New Component - InstagramPostEmbed ([#114](https://github.com/kunalnagarco/react-component-library/issues/114)) ([e53083c](https://github.com/kunalnagarco/react-component-library/commit/e53083cefc9d3ba1c8c7d8915bb1d0ecd1a04269))
+
 ### [3.0.48](https://github.com/kunalnagarco/react-component-library/compare/v3.0.47...v3.0.48) (2021-05-22)
 
 
