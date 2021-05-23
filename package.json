@@ -24,7 +24,7 @@
     "semantic-release": "semantic-release",
     "prepare": "husky install",
     "test:dev": "jest --watch --runInBand",
-    "test": "jest --runInBand"
+    "test": "jest --runInBand --coverage"
   },
   "lint-staged": {
     "package.json": [
