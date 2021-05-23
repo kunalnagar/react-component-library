@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.5](https://github.com/kunalnagarco/react-component-library/compare/v3.1.4...v3.1.5) (2021-05-23)
+
+
+### Bug Fixes
+
+* YAML syntax for workflow file ([0954628](https://github.com/kunalnagarco/react-component-library/commit/0954628a3e4b6dea72fb10f00c5173a1ab19689c))
+
 ### [3.1.4](https://github.com/kunalnagarco/react-component-library/compare/v3.1.3...v3.1.4) (2021-05-23)
 
 
