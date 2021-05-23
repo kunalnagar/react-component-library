@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.3](https://github.com/kunalnagarco/react-component-library/compare/v3.1.2...v3.1.3) (2021-05-23)
+
+
+### Bug Fixes
+
+* Remove Facebook App token ([#115](https://github.com/kunalnagarco/react-component-library/issues/115)) ([482707c](https://github.com/kunalnagarco/react-component-library/commit/482707cc16b8ef2dd5e8211b83d592f5b825045b))
+
 ### [3.1.2](https://github.com/kunalnagarco/react-component-library/compare/v3.1.1...v3.1.2) (2021-05-23)
 
 
