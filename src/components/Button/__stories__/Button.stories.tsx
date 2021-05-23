@@ -6,7 +6,7 @@ import { ESize, EVariant } from 'theme/enums'
 import { Button } from '..'
 
 export default {
-  title: 'Atoms/Button',
+  title: 'Button',
 }
 
 const sizes: { [key: string]: number } = {}

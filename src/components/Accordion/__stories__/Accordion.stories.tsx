@@ -6,7 +6,7 @@ import { ReactComponent as MinusIcon } from 'assets/minus.svg'
 import { Accordion } from '../index'
 
 export default {
-  title: 'Atoms/Accordion',
+  title: 'Accordion',
 }
 
 export const Basic = () => {
