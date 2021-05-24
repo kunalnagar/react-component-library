@@ -1,5 +1,14 @@
 # Changelog
 
+### [3.1.7](https://github.com/kunalnagarco/react-component-library/compare/v3.1.6...v3.1.7) (2021-05-24)
+
+
+### Chores
+
+* **deps:** update dependency @types/node to v14 ([#110](https://github.com/kunalnagarco/react-component-library/issues/110)) ([b7f8f51](https://github.com/kunalnagarco/react-component-library/commit/b7f8f51b3406bd07241bea78dfa01d0b20daee24))
+* **deps:** update jest monorepo to v26 ([#107](https://github.com/kunalnagarco/react-component-library/issues/107)) ([7f575b9](https://github.com/kunalnagarco/react-component-library/commit/7f575b9ca3477f94a9d00d579753e7e0de5bcc73))
+* **deps:** update react monorepo to v17 ([#112](https://github.com/kunalnagarco/react-component-library/issues/112)) ([1489ed8](https://github.com/kunalnagarco/react-component-library/commit/1489ed8de45e7cbb17fa9f9f8f83185bff97b531))
+
 ### [3.1.6](https://github.com/kunalnagarco/react-component-library/compare/v3.1.5...v3.1.6) (2021-05-23)
 
 
