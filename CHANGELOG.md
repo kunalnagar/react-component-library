@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.14](https://github.com/kunalnagarco/react-component-library/compare/v3.1.13...v3.1.14) (2021-05-26)
+
+
+### Chores
+
+* **deps:** update dependency @brainhubeu/react-carousel to v2.0.4 ([010b0f6](https://github.com/kunalnagarco/react-component-library/commit/010b0f6be6b288a2f85c5409146a8e7613142bc4))
+
 ### [3.1.13](https://github.com/kunalnagarco/react-component-library/compare/v3.1.12...v3.1.13) (2021-05-26)
 
 
