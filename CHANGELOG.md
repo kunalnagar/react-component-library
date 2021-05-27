@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.17](https://github.com/kunalnagarco/react-component-library/compare/v3.1.16...v3.1.17) (2021-05-27)
+
+
+### Chores
+
+* **deps:** pin dependency typescript to v4.2.4 ([a67cd77](https://github.com/kunalnagarco/react-component-library/commit/a67cd77e73848de3e37d95e2239a1e92054a25b3))
+
 ### [3.1.16](https://github.com/kunalnagarco/react-component-library/compare/v3.1.15...v3.1.16) (2021-05-27)
 
 
