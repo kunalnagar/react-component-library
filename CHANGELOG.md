@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.16](https://github.com/kunalnagarco/react-component-library/compare/v3.1.15...v3.1.16) (2021-05-27)
+
+
+### Chores
+
+* Revert TypeScript to 4.2.4 ([9899005](https://github.com/kunalnagarco/react-component-library/commit/98990052aa4053e32233d340eadb2ed1d39c4037))
+
 ### [3.1.15](https://github.com/kunalnagarco/react-component-library/compare/v3.1.14...v3.1.15) (2021-05-26)
 
 
