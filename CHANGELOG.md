@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.20](https://github.com/kunalnagarco/react-component-library/compare/v3.1.19...v3.1.20) (2021-05-28)
+
+
+### Chores
+
+* **deps:** update node.js to v14.17.0 ([738d425](https://github.com/kunalnagarco/react-component-library/commit/738d4251948212e12769e5654a58e39e462374e7))
+
 ### [3.1.19](https://github.com/kunalnagarco/react-component-library/compare/v3.1.18...v3.1.19) (2021-05-28)
 
 
