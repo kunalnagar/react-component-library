@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.24](https://github.com/kunalnagarco/react-component-library/compare/v3.1.23...v3.1.24) (2021-05-31)
+
+
+### Chores
+
+* **deps:** update dependency polished to v4.1.3 ([e287df2](https://github.com/kunalnagarco/react-component-library/commit/e287df2e42cb1069f70d5616cd4196a57718ad30))
+
 ### [3.1.23](https://github.com/kunalnagarco/react-component-library/compare/v3.1.22...v3.1.23) (2021-05-30)
 
 
