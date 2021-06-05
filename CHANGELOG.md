@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.29](https://github.com/kunalnagarco/react-component-library/compare/v3.1.28...v3.1.29) (2021-06-05)
+
+
+### Chores
+
+* **deps:** update dependency highlight.js to v10.7.3 ([7c7aa4d](https://github.com/kunalnagarco/react-component-library/commit/7c7aa4df8485327b103a6eccbd79fb1740bd77c3))
+
 ### [3.1.28](https://github.com/kunalnagarco/react-component-library/compare/v3.1.27...v3.1.28) (2021-06-05)
 
 
