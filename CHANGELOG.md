@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.33](https://github.com/kunalnagarco/react-component-library/compare/v3.1.32...v3.1.33) (2021-06-05)
+
+
+### Chores
+
+* **deps:** update dependency eslint to v7.28.0 ([07c3557](https://github.com/kunalnagarco/react-component-library/commit/07c3557d62ac4dc3b30caac1c73bb63f2347c797))
+
 ### [3.1.32](https://github.com/kunalnagarco/react-component-library/compare/v3.1.31...v3.1.32) (2021-06-05)
 
 
