@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.28](https://github.com/kunalnagarco/react-component-library/compare/v3.1.27...v3.1.28) (2021-06-05)
+
+
+### Chores
+
+* **deps:** update dependency @types/react-dom to v17.0.6 ([6e8541b](https://github.com/kunalnagarco/react-component-library/commit/6e8541ba7b168e1b749487efcb63efb698081cb8))
+
 ### [3.1.27](https://github.com/kunalnagarco/react-component-library/compare/v3.1.26...v3.1.27) (2021-06-05)
 
 
