@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.27](https://github.com/kunalnagarco/react-component-library/compare/v3.1.26...v3.1.27) (2021-06-05)
+
+
+### Chores
+
+* **deps:** update dependency @types/react to v17.0.9 ([2e9ebf7](https://github.com/kunalnagarco/react-component-library/commit/2e9ebf7a5e1352b3d48b5e0e80eb35c11e8ff393))
+
 ### [3.1.26](https://github.com/kunalnagarco/react-component-library/compare/v3.1.25...v3.1.26) (2021-06-05)
 
 
