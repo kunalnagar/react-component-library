@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://github.com/kunalnagarco/react-component-library/compare/v3.1.34...v3.2.0) (2021-06-07)
+
+
+### Features
+
+* New Component - FacebookPostEmbed ([#118](https://github.com/kunalnagarco/react-component-library/issues/118)) ([eff44b5](https://github.com/kunalnagarco/react-component-library/commit/eff44b51117bd58d8da3d031891288d0cdc0f7a1))
+
 ### [3.1.34](https://github.com/kunalnagarco/react-component-library/compare/v3.1.33...v3.1.34) (2021-06-06)
 
 
