@@ -9,9 +9,6 @@ declare global {
   }
 }
 
-/**
- * This component uses Facebook Embedded Posts: https://developers.facebook.com/docs/plugins/embedded-posts
- */
 interface Props {
   /**
    * The absolute URL of the post.
@@ -40,6 +37,13 @@ interface Props {
   shouldShowText?: boolean
 }
 
+/**
+ * Embedded Posts are a simple way to put public posts - by a Page or a person
+ * on Facebook - into the content of your web site or web page. Only public
+ * posts from Facebook Pages and profiles can be embedded.
+ *
+ * @link https://developers.facebook.com/docs/plugins/embedded-posts
+ */
 export const FacebookPostEmbed = ({
   url,
   width,
