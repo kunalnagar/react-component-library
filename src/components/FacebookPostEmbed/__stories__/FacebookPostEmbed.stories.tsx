@@ -11,6 +11,13 @@ export const Default = () => (
   </>
 )
 
+export const Multiple = () => (
+  <>
+    <FacebookPostEmbed url="https://www.facebook.com/20531316728/posts/10154009990506729/" />
+    <FacebookPostEmbed url="https://www.facebook.com/facebookappCanada/posts/4122268924477994" />
+  </>
+)
+
 export const Lazy = () => (
   <>
     <FacebookPostEmbed

@@ -52,16 +52,11 @@ export const FacebookPostEmbed = ({
 }: Props) => {
   useEffect(() => {
     if (typeof window.FB === 'undefined') {
-      loadScript(
-        {
-          url: 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2',
-          id: 'facebook-js-sdk',
-          async: true,
-        },
-        () => {
-          window.FB.XFBML.parse()
-        },
-      )
+      loadScript({
+        url: 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2',
+        id: 'facebook-js-sdk',
+        async: true,
+      })
     } else {
       window.FB.XFBML.parse()
     }
