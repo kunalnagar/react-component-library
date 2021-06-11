@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.3](https://github.com/kunalnagarco/react-component-library/compare/v3.2.2...v3.2.3) (2021-06-11)
+
+
+### Chores
+
+* **deps:** update dependency @semantic-release/release-notes-generator to v9.0.3 ([cb5c9ed](https://github.com/kunalnagarco/react-component-library/commit/cb5c9ed603b73a909bb372bde39224a9d264b17b))
+
 ### [3.2.2](https://github.com/kunalnagarco/react-component-library/compare/v3.2.1...v3.2.2) (2021-06-11)
 
 
