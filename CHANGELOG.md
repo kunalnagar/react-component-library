@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.0](https://github.com/kunalnagarco/react-component-library/compare/v3.2.10...v3.3.0) (2021-06-12)
+
+
+### Features
+
+* **component:** TwitterTweetEmbed ([#120](https://github.com/kunalnagarco/react-component-library/issues/120)) ([812e698](https://github.com/kunalnagarco/react-component-library/commit/812e69808d31c336b5c9ec4d5718ed6f2a8e6dc4))
+
 ### [3.2.10](https://github.com/kunalnagarco/react-component-library/compare/v3.2.9...v3.2.10) (2021-06-12)
 
 
