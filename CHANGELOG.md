@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.10](https://github.com/kunalnagarco/react-component-library/compare/v3.2.9...v3.2.10) (2021-06-12)
+
+
+### Chores
+
+* Lint PR title according to Conventional Commits ([#122](https://github.com/kunalnagarco/react-component-library/issues/122)) ([e1ce8a4](https://github.com/kunalnagarco/react-component-library/commit/e1ce8a4e95f946e937864f67f4576a0d3b591adb))
+
 ### [3.2.9](https://github.com/kunalnagarco/react-component-library/compare/v3.2.8...v3.2.9) (2021-06-11)
 
 
