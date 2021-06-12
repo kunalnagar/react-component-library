@@ -1,6 +1,4 @@
-/* eslint-disable no-console */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable react/no-danger */
 import React, { useEffect, useState, useRef } from 'react'
 import { loadScript } from 'utils/loadScript'
 
@@ -11,7 +9,7 @@ declare global {
 }
 
 /**
- * This component uses the Twitter oEmbed API: https://developer.twitter.com/en/docs/twitter-for-websites/oembed-api
+ * This component uses the Twitter Embedded Tweets API: https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-javascript-factory-function
  */
 interface Props {
   /**
