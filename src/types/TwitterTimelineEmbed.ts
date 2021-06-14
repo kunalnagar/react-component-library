@@ -60,7 +60,7 @@ interface BaseProps {
   dnt?: boolean
 }
 
-type ListProps =
+type VariableProps =
   | {
       sourceType: 'list'
       ownerScreenName: string
@@ -74,4 +74,4 @@ type ListProps =
       slug?: never
     }
 
-export type TwitterTimelineEmbedProps = BaseProps & ListProps
+export type TwitterTimelineEmbedProps = BaseProps & VariableProps
