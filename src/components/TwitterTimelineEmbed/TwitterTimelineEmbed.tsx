@@ -2,6 +2,9 @@ import React, { useEffect, useState, useRef } from 'react'
 import { TwitterTimelineEmbedProps } from 'types'
 import { loadScript } from 'utils/loadScript'
 
+/**
+ * This component uses the Twitter Embedded timelines API: https://developer.twitter.com/en/docs/twitter-for-websites/timelines/guides/parameter-reference
+ */
 export const TwitterTimelineEmbed = ({
   sourceType,
   screenName,

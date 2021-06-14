@@ -1,6 +1,3 @@
-/**
- * This component uses the Twitter Embedded timelines API: https://developer.twitter.com/en/docs/twitter-for-websites/timelines/guides/parameter-reference
- */
 interface BaseProps {
   /**
    * The screen name of the account
