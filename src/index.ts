@@ -1,5 +1,8 @@
 export { Accordion } from 'components/Accordion'
 export { Button } from 'components/Button'
 export { InstagramPostEmbed } from 'components/InstagramPostEmbed'
+export { FacebookPostEmbed } from 'components/FacebookPostEmbed'
+export { TwitterTweetEmbed } from 'components/TwitterTweetEmbed'
+export { TwitterTimelineEmbed } from 'components/TwitterTimelineEmbed'
 export * from 'theme'
 export * from 'types'
