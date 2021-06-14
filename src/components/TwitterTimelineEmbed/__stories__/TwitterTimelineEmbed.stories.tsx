@@ -31,6 +31,16 @@ export const ShowReplies = () => (
   </>
 )
 
+export const ChromeNoHeaderNoFooter = () => (
+  <>
+    <TwitterTimelineEmbed
+      sourceType="profile"
+      screenName="twitterdev"
+      chrome={['noheader', 'nofooter']}
+    />
+  </>
+)
+
 export const DarkTheme = () => (
   <>
     <TwitterTimelineEmbed
