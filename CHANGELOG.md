@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.5](https://github.com/kunalnagarco/react-component-library/compare/v3.4.4...v3.4.5) (2021-06-14)
+
+
+### Chores
+
+* **deps:** update dependency @babel/core to v7.14.6 ([768360c](https://github.com/kunalnagarco/react-component-library/commit/768360ca6a07581c46f8a609253fe9527db5c76c))
+
 ### [3.4.4](https://github.com/kunalnagarco/react-component-library/compare/v3.4.3...v3.4.4) (2021-06-14)
 
 
