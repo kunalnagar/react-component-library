@@ -5,7 +5,6 @@ import { loadScript } from 'utils/loadScript'
 export const TwitterTimelineEmbed = ({
   sourceType,
   screenName,
-  ownerScreenName,
   slug,
   showReplies = false,
   chrome,
@@ -42,8 +41,7 @@ export const TwitterTimelineEmbed = ({
           {
             sourceType,
             screenName: sourceType === 'profile' ? screenName : undefined,
-            ownerScreenName:
-              sourceType === 'list' ? ownerScreenName : undefined,
+            ownerScreenName: sourceType === 'list' ? screenName : undefined,
             slug: sourceType === 'list' ? slug : undefined,
           },
           embedContainer.current,
@@ -58,7 +56,6 @@ export const TwitterTimelineEmbed = ({
     chrome,
     dnt,
     height,
-    ownerScreenName,
     ready,
     screenName,
     showReplies,

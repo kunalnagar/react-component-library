@@ -15,7 +15,7 @@ export const List = () => (
   <>
     <TwitterTimelineEmbed
       sourceType="list"
-      ownerScreenName="twitterdev"
+      screenName="twitterdev"
       slug="national-parks"
     />
   </>

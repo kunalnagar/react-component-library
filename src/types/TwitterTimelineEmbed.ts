@@ -3,6 +3,10 @@
  */
 interface BaseProps {
   /**
+   * The screen name of the account
+   */
+  screenName: string
+  /**
    * Show Tweets in response to another Tweet or account
    *
    * @default false
@@ -63,14 +67,10 @@ interface BaseProps {
 type VariableProps =
   | {
       sourceType: 'list'
-      ownerScreenName: string
-      screenName?: never
       slug: string
     }
   | {
       sourceType: 'profile'
-      ownerScreenName?: never
-      screenName: string
       slug?: never
     }
 
