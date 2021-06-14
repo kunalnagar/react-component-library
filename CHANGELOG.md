@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.0](https://github.com/kunalnagarco/react-component-library/compare/v3.3.5...v3.4.0) (2021-06-14)
+
+
+### Features
+
+* New Component - TwitterTimelineEmbed ([#126](https://github.com/kunalnagarco/react-component-library/issues/126)) ([dc02963](https://github.com/kunalnagarco/react-component-library/commit/dc029630fc0ab7b6b1db72a05a35a2f071b6b47b))
+
 ### [3.3.5](https://github.com/kunalnagarco/react-component-library/compare/v3.3.4...v3.3.5) (2021-06-13)
 
 
