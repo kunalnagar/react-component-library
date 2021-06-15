@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.11](https://github.com/kunalnagarco/react-component-library/compare/v3.4.10...v3.4.11) (2021-06-15)
+
+
+### Chores
+
+* **deps:** update dependency semantic-release to v17.4.4 ([9066e10](https://github.com/kunalnagarco/react-component-library/commit/9066e10bc03e8da6ebb29c63bc0cbd9a76c81bc8))
+
 ### [3.4.10](https://github.com/kunalnagarco/react-component-library/compare/v3.4.9...v3.4.10) (2021-06-15)
 
 
