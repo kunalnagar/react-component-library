@@ -1,3 +1,6 @@
 export * from './Button'
 export * from './Accordion'
 export * from './TwitterTimelineEmbed'
+export * from './FacebookPostEmbed'
+export * from './InstagramPostEmbed'
+export * from './TwitterTweetEmbed'

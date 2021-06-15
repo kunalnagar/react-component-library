@@ -47,7 +47,7 @@ addParameters({
   options: {
     theme: {
       base: 'light',
-      brandTitle: 'kunalnagar/react-component-library',
+      brandTitle: '@kunalnagarco/react-component-library',
     },
   },
   viewport: {
