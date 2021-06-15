@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.7](https://github.com/kunalnagarco/react-component-library/compare/v3.4.6...v3.4.7) (2021-06-15)
+
+
+### Chores
+
+* Basic cleanup ([#128](https://github.com/kunalnagarco/react-component-library/issues/128)) ([6735055](https://github.com/kunalnagarco/react-component-library/commit/673505571c8ac269e60ba30a4ff11bc87dd61611))
+
 ### [3.4.6](https://github.com/kunalnagarco/react-component-library/compare/v3.4.5...v3.4.6) (2021-06-15)
 
 
