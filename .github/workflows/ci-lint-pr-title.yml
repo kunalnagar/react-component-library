@@ -1,4 +1,4 @@
-name: Continuous Integration (Lint PR Title)
+name: CI (Lint PR Title)
 
 on:
   pull_request:
