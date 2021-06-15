@@ -21,4 +21,4 @@ npm install --save @kunalnagarco/react-component-library
 
 ## Usage
 
-Please refer to the Storybook to see how the components can be used.
+Please refer to the [Storybook](https://kunalnagarco.github.io/react-component-library/) to see how the components can be used.
