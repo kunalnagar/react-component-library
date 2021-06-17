@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.17](https://github.com/kunalnagarco/react-component-library/compare/v3.4.16...v3.4.17) (2021-06-17)
+
+
+### Chores
+
+* **deps:** update dependency rollup to v2.52.1 ([2a50008](https://github.com/kunalnagarco/react-component-library/commit/2a50008bf4b65c1d875fe7f83e7f46820e43a0d5))
+
 ### [3.4.16](https://github.com/kunalnagarco/react-component-library/compare/v3.4.15...v3.4.16) (2021-06-16)
 
 
