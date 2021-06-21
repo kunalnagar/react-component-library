@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.29](https://github.com/kunalnagarco/react-component-library/compare/v3.4.28...v3.4.29) (2021-06-21)
+
+
+### Chores
+
+* **deps:** update dependency @babel/preset-env to v7.14.7 ([5d2073c](https://github.com/kunalnagarco/react-component-library/commit/5d2073ce8aefb4ac0084af8150de39b79c9cbc5b))
+
 ### [3.4.28](https://github.com/kunalnagarco/react-component-library/compare/v3.4.27...v3.4.28) (2021-06-21)
 
 
