@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.30](https://github.com/kunalnagarco/react-component-library/compare/v3.4.29...v3.4.30) (2021-06-22)
+
+
+### Chores
+
+* **deps:** update dependency @kunalnagarco/eslint-config to v0.1.17 ([601dd27](https://github.com/kunalnagarco/react-component-library/commit/601dd2749ccc4273b7286202e947da0cb8124849))
+
 ### [3.4.29](https://github.com/kunalnagarco/react-component-library/compare/v3.4.28...v3.4.29) (2021-06-21)
 
 
