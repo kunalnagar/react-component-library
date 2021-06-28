@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.41](https://github.com/kunalnagarco/react-component-library/compare/v3.4.40...v3.4.41) (2021-06-28)
+
+
+### Chores
+
+* **deps:** update storybook monorepo to v6.3.1 ([3eec252](https://github.com/kunalnagarco/react-component-library/commit/3eec2528357bf8ce7db0a90795a61245a5f53781))
+
 ### [3.4.40](https://github.com/kunalnagarco/react-component-library/compare/v3.4.39...v3.4.40) (2021-06-28)
 
 
