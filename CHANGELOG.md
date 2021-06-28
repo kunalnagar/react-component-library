@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.38](https://github.com/kunalnagarco/react-component-library/compare/v3.4.37...v3.4.38) (2021-06-28)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#131](https://github.com/kunalnagarco/react-component-library/issues/131)) ([1763ff2](https://github.com/kunalnagarco/react-component-library/commit/1763ff2b19748ffb84461fcc8ef391ac2f5a96af))
+
 ### [3.4.37](https://github.com/kunalnagarco/react-component-library/compare/v3.4.36...v3.4.37) (2021-06-27)
 
 
