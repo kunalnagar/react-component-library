@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.44](https://github.com/kunalnagarco/react-component-library/compare/v3.4.43...v3.4.44) (2021-06-29)
+
+
+### Chores
+
+* **deps:** update kunalnagarco/action-semantic-pr action to v1.2.24 ([253f78d](https://github.com/kunalnagarco/react-component-library/commit/253f78da17aee4353f726817a1f78e3185cafeb4))
+
 ### [3.4.43](https://github.com/kunalnagarco/react-component-library/compare/v3.4.42...v3.4.43) (2021-06-29)
 
 
