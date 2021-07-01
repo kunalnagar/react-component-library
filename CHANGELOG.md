@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.51](https://github.com/kunalnagarco/react-component-library/compare/v3.4.50...v3.4.51) (2021-07-01)
+
+
+### Chores
+
+* **deps:** update node.js to v14.17.2 ([bd87acf](https://github.com/kunalnagarco/react-component-library/commit/bd87acf9d9fbd7467a281e774d047fa9b601a3e5))
+
 ### [3.4.50](https://github.com/kunalnagarco/react-component-library/compare/v3.4.49...v3.4.50) (2021-07-01)
 
 
