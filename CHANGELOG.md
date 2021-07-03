@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.58](https://github.com/kunalnagarco/react-component-library/compare/v3.4.57...v3.4.58) (2021-07-03)
+
+
+### Chores
+
+* **deps:** update dependency prismjs to v1.24.1 ([1b3c2c8](https://github.com/kunalnagarco/react-component-library/commit/1b3c2c80357b695c579021e81ce9999e8722dc40))
+
 ### [3.4.57](https://github.com/kunalnagarco/react-component-library/compare/v3.4.56...v3.4.57) (2021-07-03)
 
 
