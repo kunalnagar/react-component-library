@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.67](https://github.com/kunalnagarco/react-component-library/compare/v3.4.66...v3.4.67) (2021-07-06)
+
+
+### Chores
+
+* **deps:** update dependency @types/jest to v26.0.24 ([e2b6d94](https://github.com/kunalnagarco/react-component-library/commit/e2b6d94cf1ca82352a35d12455cb59a0846eaa62))
+
 ### [3.4.66](https://github.com/kunalnagarco/react-component-library/compare/v3.4.65...v3.4.66) (2021-07-06)
 
 
