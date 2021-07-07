@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.71](https://github.com/kunalnagarco/react-component-library/compare/v3.4.70...v3.4.71) (2021-07-07)
+
+
+### Chores
+
+* **deps:** update dependency @storybook/preset-create-react-app to v3.2.0 ([9c65d3d](https://github.com/kunalnagarco/react-component-library/commit/9c65d3d08debd64d40df5897081e4b5e4d7cef1b))
+
 ### [3.4.70](https://github.com/kunalnagarco/react-component-library/compare/v3.4.69...v3.4.70) (2021-07-07)
 
 
