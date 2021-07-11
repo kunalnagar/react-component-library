@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.4.81](https://github.com/kunalnagarco/react-component-library/compare/v3.4.80...v3.4.81) (2021-07-11)
+
+
+### Chores
+
+* **deps:** update dependency rollup to v2.53.1 ([adbeeed](https://github.com/kunalnagarco/react-component-library/commit/adbeeedd7015d9a0489670332aa76c410b64c3d2))
+
 ### [3.4.80](https://github.com/kunalnagarco/react-component-library/compare/v3.4.79...v3.4.80) (2021-07-09)
 
 
